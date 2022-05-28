@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-color: #40514E;
+}
+
+    hr {
+        border-align: center;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 10px;
+        border-color: lightgrey;
+        width: 5%;
+        border-padding: 20px;
+        }
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #85EB4E;
+    font-size: 6.5rem;
+    margin: 100px auto 0 auto;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #32C38C;
+    font-size: 2.5rem;
+    margin: 0 auto 10 auto;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #AEE7E8;
+    font-size: 2rem;
+}
+.top-container {
+    position: relative;
+    }
+
+
+.profile-pic {
+    height: 70%;
+    width: 85%;
+    padding-bottom: 50px;
+    }
+.middle-container {
+    text-align: center;
+        margin: 50px 50px;
+}
+
+.shaka {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 50px 100px;
+}
+.bottle {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.oil-range {
+    padding-top: 125px;
+}
+.footer-link {
+    color: #AEE7E8;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me {
+    clear: left;
+}
+
+.bottom-container {
+    background-color: #3F84AC;
+    height: 50px;
+    margin: 0;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-para{
+    margin: 50px;
+}
+
+
+##F4F787
+##85EB4E
+##32C38C
+##3F84AC
