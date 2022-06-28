@@ -1,58 +1,89 @@
+.background-image{
+    background: url('../images/yellow-olives.jpg');
+    background-position: center;
+    background-image: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: 95vh;
+    position: relative;
+    padding: 0;
+    opacity: .80;
+}
+
+.container-fluid{
+    width: 100%;
+    align: center;
+    padding-top: 2%;
+}
+
+
+/* Navbar */
+.nav-bar {
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav-bar-name{
+    font-family: 'Fraunces';
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    opacity: 1;
+}
+
+.title-btn{
+    align: center;
+}
+.title-col{
+    font-size: 2rem;
+    padding: 10% 5%;
+}
+
 body {
     margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-color: #40514E;
+    font-color: #0dcaf0;
 }
 
-    hr {
-        border-align: center;
-        border-style: none;
-        border-top-style: dotted;
-        border-width: 10px;
-        border-color: lightgrey;
-        width: 5%;
-        border-padding: 20px;
-        }
-
-h1 {
-    font-family: 'Sacramento', cursive;
-    color: #85EB4E;
-    font-size: 6.5rem;
-    margin: 100px auto 0 auto;
-}
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #32C38C;
-    font-size: 2.5rem;
-    margin: 0 auto 10 auto;
-    font-weight: normal;
-}
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #AEE7E8;
     font-size: 2rem;
 }
-.top-container {
-    position: relative;
-    }
 
 
-.profile-pic {
-    height: 70%;
-    width: 85%;
-    padding-bottom: 50px;
-    }
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+}
 .middle-container {
     text-align: center;
-        margin: 50px 50px;
+    padding-top: 5%;
+}
+.upcoming{
+    color: #0dcaf0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0 auto 10 auto;
+    font-weight: normal;
 }
 
-.shaka {
+.third-container{
+    margin: 0 10%;
+}
+
+.circle-picture {
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
-    margin: 50px 100px;
+    float: center;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    margin-top: 20%;
+    margin-right: 10%;
 }
 .bottle {
     padding: 50px;
@@ -64,11 +95,20 @@ h3 {
 .oil-range {
     padding-top: 125px;
 }
-.footer-link {
-    color: #AEE7E8;
+
+#carousel{
+    margin: 0%;
 }
 
-.skill-row {
+.carousel-item{
+    object-fit: cover;
+    object-position: center;
+    height: 95vh;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.product-row{
     width: 50%;
     margin: 50px auto 50px auto;
     text-align: left;
@@ -77,47 +117,54 @@ h3 {
 
 .contact-me {
     clear: left;
+    align: center;
+    padding: 5%;
 }
 
 .bottom-container {
-    background-color: #3F84AC;
-    height: 50px;
+    background-color:#0dcaf0;
+    height: 5vh;
     margin: 0;
 }
 
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.facebook-icon{
+    padding-left: 3%;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+@media (max-width: 1028px) {
+
+    .nav-bar-name{
+        font-size: 2rem;
+    }
+    .title-col{
+        padding-top: 15%;
+    }
+    .upcoming{
+        font-size: 2rem;
+    }
+
+    body{
+        margin-right: -1%;
+    }
+
+    #carousel{
+        padding-top: 7%;
+        object-fit: cover;
+    }
+
+    .carousel-inner{
+        height: 300px;
+    }
+
+    .circle-picture{
+        margin: 0;
+    }
+
 }
 
-.contact-para{
-    margin: 50px;
-}
 
-
+/* colors
 ##F4F787
 ##85EB4E
 ##32C38C
-##3F84AC
+##3F84AC*/
