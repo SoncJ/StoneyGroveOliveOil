@@ -1,5 +1,5 @@
 .background-image{
-    background: url('../images/yellow-olives.jpg');
+    background: url('../images/sunset-olives.jpg');
     background-position: center;
     background-image: cover;
     background-repeat: no-repeat;
@@ -7,7 +7,6 @@
     height: 95vh;
     position: relative;
     padding: 0;
-    opacity: .80;
 }
 
 .container-fluid{
@@ -25,7 +24,7 @@
 
 .nav-bar-name{
     font-family: 'Fraunces';
-    color: white;
+    color: #0dcaf0;
     text-decoration: none;
     font-size: 3rem;
     opacity: 1;
@@ -72,10 +71,6 @@ h3 {
     font-weight: normal;
 }
 
-.third-container{
-    margin: 0 10%;
-}
-
 .circle-picture {
     border-radius: 50%;
     float: center;
@@ -87,13 +82,13 @@ h3 {
 }
 .bottle {
     padding: 50px;
-    height: 300px;
-    width: 300px;
+    height: 550px;
     float: left;
 }
 
 .oil-range {
     padding-top: 125px;
+    align: center;
 }
 
 #carousel{
@@ -103,15 +98,15 @@ h3 {
 .carousel-item{
     object-fit: cover;
     object-position: center;
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
     padding-bottom: 0;
 }
 
 .product-row{
-    width: 50%;
+    width: 60%;
     margin: 50px auto 50px auto;
-    text-align: left;
+    text-align: center;
     line-height: 2;
 }
 
@@ -136,8 +131,13 @@ h3 {
     .nav-bar-name{
         font-size: 2rem;
     }
-    .title-col{
-        padding-top: 15%;
+
+    .title-text{
+        padding-top: 12%;
+    }
+
+    .title-btn{
+        padding-top: 3%;
     }
     .upcoming{
         font-size: 2rem;
@@ -146,7 +146,13 @@ h3 {
     body{
         margin-right: -1%;
     }
-
+    .bottle {
+    height: 550px;
+    vertical-align: middle;
+    }
+    .product-row{
+        float: center;
+    }
     #carousel{
         padding-top: 7%;
         object-fit: cover;
