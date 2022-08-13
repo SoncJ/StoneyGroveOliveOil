@@ -7,6 +7,7 @@
     height: 95vh;
     position: relative;
     padding: 0;
+    opacity: .8;
 }
 
 .container-fluid{
@@ -26,19 +27,17 @@
     font-family: 'Fraunces';
     color: #0dcaf0;
     text-decoration: none;
-    font-size: 5rem;
-    opacity: 1;
+    font-size: 4rem;
+    opacity: .8;
 }
 .title-info{
+    padding-top: 40%;
+}
+/*.title-btn{
     padding-top: 15%;
-}
-.title-btn{
-    align: bottom;
-    padding-top: 20%;
-}
+}*/
 .title-col{
     font-size: 2rem;
-    padding: 10% 5%;
 }
 
 body {
@@ -104,7 +103,6 @@ h3 {
 .carousel-item{
     object-fit: cover;
     object-position: center;
-    height: 100vh;
     overflow: hidden;
     padding-bottom: 0;
 }
@@ -136,7 +134,9 @@ h3 {
 
 }
 @media (max-width: 1028px) {
-
+    .title-info{
+        padding-top: 30;
+    }
     .product-comments{
         padding-top: 0;
     }
