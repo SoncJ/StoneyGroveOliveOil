@@ -26,12 +26,15 @@
     font-family: 'Fraunces';
     color: #0dcaf0;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 5rem;
     opacity: 1;
 }
-
+.title-info{
+    padding-top: 15%;
+}
 .title-btn{
-    align: center;
+    align: bottom;
+    padding-top: 20%;
 }
 .title-col{
     font-size: 2rem;
@@ -77,18 +80,21 @@ h3 {
     height: 50vh;
     width: 50vh;
     position: relative;
-    margin-top: 20%;
-    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
 .bottle {
     padding: 50px;
     height: 550px;
-    float: left;
 }
 
 .oil-range {
-    padding-top: 125px;
     align: center;
+}
+.product-comments{
+    align: center;
+    text-align: center;
+    padding-top: 10%;
 }
 
 #carousel{
@@ -126,29 +132,16 @@ h3 {
     padding-left: 3%;
 }
 
+
+
+}
 @media (max-width: 1028px) {
 
-    .nav-bar-name{
-        font-size: 2rem;
+    .product-comments{
+        padding-top: 0;
     }
-
-    .title-text{
-        padding-top: 12%;
-    }
-
-    .title-btn{
-        padding-top: 3%;
-    }
-    .upcoming{
-        font-size: 2rem;
-    }
-
-    body{
-        margin-right: -1%;
-    }
-    .bottle {
-    height: 550px;
-    vertical-align: middle;
+    .oil-range{
+        padding-top: 10%;
     }
     .product-row{
         float: center;
@@ -164,6 +157,7 @@ h3 {
 
     .circle-picture{
         margin: 0;
+        margin-top: 5%;
     }
 
 }
