@@ -12,8 +12,8 @@
 
 .container-fluid{
     width: 100%;
-    padding-top: 2%;
-    height: 95vh;
+    position: absolute;
+    bottom: 20px;
 }
 
 
@@ -30,8 +30,11 @@
     font-size: 4rem;
     opacity: .8;
 }
+.row{
+    padding-bottom: 5%;
+}
 .title-info{
-    padding-top: 30%;
+    padding-top: 20%;
 }
 /*.title-btn{
     padding-top: 15%;
@@ -135,7 +138,7 @@ h3 {
 }
 @media (max-width: 1028px) {
     .title-info{
-        padding-top: 30;
+        padding-top: 40%;
     }
     .product-comments{
         padding-top: 0;
